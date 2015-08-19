@@ -94,14 +94,11 @@ header img {
     display: block;
     margin: 0 auto 20px;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(Resselle.ttf);
-}
+@font-face {font-family:"Resselle";src:url("Resselle.eot?") format("eot"),url("Resselle.woff") format("woff"),url("Resselle.ttf") format("truetype"),url("Resselle.svg#Resselle") format("svg");font-weight:normal;font-style:normal;}
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: myFirstFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Resselle","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
