@@ -116,10 +116,13 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 4.75em;
+        position:relative;
+        top:-50px;
     }
 
     header .intro-text .skills {
         font-size: 1.75em;
+        
     }
 }
 
@@ -130,7 +133,10 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-
+#profil{
+	position:relative;
+	
+}
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
