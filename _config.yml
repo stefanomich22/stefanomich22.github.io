@@ -1,6 +1,6 @@
 # Site settings
 title: Dolomites Labs
-email: your-email@domain.com
+email: dolomiteslabs@gmail.com
 url: https://example.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -17,21 +17,16 @@ color:
 footer:
   copyright: Stefano Mich
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Social
+  credits: Contacts
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: stack-overflow
+  - title: instagram
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  
 
 # Postal address (add as many lines as necessary)
 address:
@@ -39,7 +34,7 @@ address:
   - line: Tesero, 38038 Italy
 
 # Credits content
-credits: Jekyll rocks'
+credits: <a href="dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a><br>+39 3406735250<br>+39 3486030905
 
 # Build settings
 markdown: kramdown

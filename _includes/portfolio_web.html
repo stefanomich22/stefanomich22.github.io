@@ -1,0 +1,42 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="pad">Web Design</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+            <div class="category-description">
+                Creiamo il Suo sito web – su misura, adattato ai Suoi desideri:<br>
+    <ul>
+    <li>Integriamo testi e immagini</li>
+    <li>Ottimizzazione di ricerca</li>
+    <li>Design professionale del sito</li>
+    <li>Contenuti del sito possono essere modificati autonomamente (CMS)</li>
+    <li>Alta flessibilità – i siti che creiamo sono facilmente estensibili</li>
+    <li>Support diretto da professionisti – niente Callcenter e nessuna coda di attesa</li>
+     </ul>
+Assimiliamo il design già esistente e lo ottimizziamo o creiamo un design nuovo. Il Suo messaggio verrà comunicato in modo efficiente. Sito facile da gestire e tuttavia con design piacevole.<br>
+Risultato: Il Suo marchio si profila nella giungla dei siti web portando vantaggi. Sia localmente che in ambito internazionale.<br>
+            </div><br>
+                {% for post in site.posts %}
+                {% if post.category == "webdesign" %}
+                    <div class="col-sm-6 portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                   {{ post.title }}
+                                </div>
+                            </div>
+                            <img src="../img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <div class="subtitle">{{ post.subtitle }}</div>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
