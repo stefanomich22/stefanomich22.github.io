@@ -9,13 +9,13 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
+  primary: 00A096 #80B3FF
+  secondary: 3e3d40 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Stefano Mich
+  copyright: Dolomites Labs
   location: Location
   social: Social
   credits: Contacts
@@ -34,7 +34,9 @@ address:
   - line: Tesero, 38038 Italy
 
 # Credits content
-credits: <a href="dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a><br>+39 3406735250<br>+39 3486030905
+credits: <a href="dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a><br>
+<a href="tel:+393406735250> Stefano: +39 3406735250</a><br>
+<a href="tel:+393486030905> Gaia: +39 3486030905</a>
 
 # Build settings
 markdown: kramdown

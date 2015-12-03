@@ -18,6 +18,7 @@ if ($email === FALSE) {
 }
 $phone = $_POST['phone'];
 $message = $_POST['message'];
+$company = $_POST['company'];
 
 
 // Create the email and send the message

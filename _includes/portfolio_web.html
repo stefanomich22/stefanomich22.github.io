@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="pad">Web Design</h2>
-                    <hr class="star-primary">
+                    <div class="separator white"></div>
                 </div>
             </div>
             <div class="row">
@@ -21,19 +21,19 @@
      </ul>
 Assimiliamo il design già esistente e lo ottimizziamo o creiamo un design nuovo. Il Suo messaggio verrà comunicato in modo efficiente. Sito facile da gestire e tuttavia con design piacevole.<br>
 Risultato: Il Suo marchio si profila nella giungla dei siti web portando vantaggi. Sia localmente che in ambito internazionale.<br>
-            </div><br>
+            </div><br><br>
+<br><br>            <div class="col-lg-12 text-center">
+                    <h2 class="pad intern">Lavori</h2>
+                    
+                </div>
                 {% for post in site.posts %}
                 {% if post.category == "webdesign" %}
-                    <div class="col-sm-6 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                   {{ post.title }}
-                                </div>
-                            </div>
-                            <img src="../img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            <div class="subtitle">{{ post.subtitle }}</div>
-                        </a>
+                    <div class="portfolio-inside">
+                        
+                            <div class="profi-div">
+                                   <h3>{{ post.title }}</h3><img src="../img/portfolio/{{ post.img }}" class="post-img" alt="{{ post.alt }}"><div class="text-cell">{{ post.description }}</div>
+                            
+                        
                     </div>
                     {% endif %}
                 {% endfor %}
