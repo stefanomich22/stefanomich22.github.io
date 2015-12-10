@@ -484,7 +484,7 @@ footer .footer-below {
 .about-bullet{
 	
 	font-size:22px;
-	
+	margin-bottom:-200px;
 }
 .about{
 	font-size:22px;
@@ -509,7 +509,7 @@ footer .footer-below {
 #img-profile{
 	width:70%;
 	height:auto;
-	margin-top:-50px;
+	margin-top:-25px;
 }
 .portfolio-inside{
 	width:100%;
@@ -563,5 +563,14 @@ font-size: 22px;
 	.profi-div{
 	width:100%;
 	margin-bottom:200px;
+}
+}
+@media(min-width:1170px) {
+	#img-profile{
+	margin-top:-50px;
+}
+.about-bullet{
+	
+	margin-bottom:0px;
 }
 }
