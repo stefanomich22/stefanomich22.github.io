@@ -297,7 +297,13 @@ section.success {
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
+.contact-h2{
+	margin-bottom: 45px;
+margin-top: -55px;
+}
+.footer-above a{
+	color:#fff;
+}
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -306,7 +312,15 @@ section.success {
     color: #{{ site.color.primary }};
     background: #fff;
 }
-
+.btn-success{
+	background-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }};
+}
+.btn-success:hover{
+    background-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }};
+	color: #{{ site.color.primary }};
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
