@@ -7,7 +7,7 @@ img: id.png
 alt: Berghotel Miramonti
 project-date: Giugno 2015
 client: Berghotel Miramonti
-category: interiordesign
+category: graphicdesign
 description: Sito internet con design responsive e creativo. Pensato per essere intuitivo e facile da capire da parte dell'utente. Sito internet <a href="http://berghotelmiramonti.it">Berghotel Miramonti</a>.
 
 ---

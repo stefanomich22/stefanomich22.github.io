@@ -1,8 +1,8 @@
 # Site settings
-title: Dolomites Labs
+title: Dolomites Labs - Design & Software
 email: dolomiteslabs@gmail.com
-url: https://example.github.io
-description: "Dl is cool Dl is cool"
+url: http://dolomiteslabs.com
+description: "Il tuo Team per la creazione di siti internet, design di interni, design grafico, sviluppo software e applicazioni, fotografia ritratti, ceremonie e interni."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -30,13 +30,15 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Località Stava 5
-  - line: Tesero, 38038 Italy
+  - line: Val di Fiemme
+  - line: Italy
 
 # Credits content
-credits: <a href="dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a><br>
-<a href="tel:+393406735250> Stefano: +39 3406735250</a><br>
-<a href="tel:+393486030905> Gaia: +39 3486030905</a>
+credits: <a href="mailto:dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a>
+
+mobile: Stefano +39 3406735250<br>Gaia +39 3486030905
+# <a href="tel:+393406735250> 
+# <br><a href="tel:+393486030905>Gaia +39 3486030905</a>
 
 # Build settings
 markdown: kramdown

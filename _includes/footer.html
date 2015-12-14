@@ -24,6 +24,7 @@
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.credits }}</h3>
                         <p>{{ site.credits }}</p>
+                        <p>{{ site.mobile }}</p>
                     </div>
                 </div>
             </div>
@@ -31,8 +32,9 @@
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                <img class="footer-img" src="img/footer-img.png">
+                    <div class="col-lg-12 footer-copyright">
+                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} &
                     </div>
                 </div>
             </div>

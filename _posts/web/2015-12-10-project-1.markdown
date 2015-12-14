@@ -2,8 +2,8 @@
 layout: default
 title: Berghotel Miramonti
 modal-id: 1
-date: 2014-07-18
-img: logo.png
+date: 2014-12-10
+img: web/logo.png
 alt: Berghotel Miramonti
 project-date: Giugno 2015
 client: Berghotel Miramonti
