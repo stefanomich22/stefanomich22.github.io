@@ -287,7 +287,11 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
-
+.footer-img{
+	width: 100px;
+margin-bottom: -25px;
+margin-top: -25px;
+}
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 40px 0 30px;
@@ -386,11 +390,7 @@ form .row:first-child .floating-label-form-group {
 footer {
     color: #fff;
 }
-.footer-img{
-	width: 100px;
-margin-bottom: -25px;
-margin-top: -25px;
-}
+
 .footer-copyright{
 	width: 100%;
 	margin-bottom: -17px;
