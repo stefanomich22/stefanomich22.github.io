@@ -24,7 +24,9 @@ a.active {
     outline: 0;
     color: #{{ site.color.secondary }};
 }
-
+.post-a{
+	color: #{{ site.color.primary }};
+}
 h1,
 h2,
 h3,
@@ -99,8 +101,12 @@ header img {
     margin: 0 auto 20px;
 }
 @font-face {
-    font-family: Resselle;
+    font-family: Ress;
     src: url(Resselle.woff);
+}
+@font-face {
+    font-family: Asp;
+    src: url(Aspergit.otf);
 }
 header .intro-text .name {
     display: block;
@@ -117,8 +123,13 @@ header .intro-text .skills {
 .pad{
 	margin-top:20px;
 }
+.main-fotografia{
+	width:80%;
+	margin-left:10%;
+}
 .category-description{
 	font-size: 22px;
+	
 }
 .category-description ul{
 	font-size: 22px;
@@ -204,12 +215,22 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 28pt;
     text-align:center;
+    font-family: Asp;
+}
+.big-bullet{
+	float:left;
+	margin:-4px 0px 0px 5px;
+}
+
+.small-bullet{
+	display:none;
+	
 }
 .bullet-div{
-	width:80%;
-	margin-left:5%;
+	width:100%;
+	
 }
 
 section.success {
@@ -247,7 +268,7 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -255,7 +276,6 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24, 188, 156, 0.9) none repeat scroll 0% 0%;
     transition: all 0.5s ease 0s;
     border-radius: 5px;
 }
@@ -266,15 +286,18 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
+	top: 30%;
+	width: 40%;
+	height: 40%;
+	margin-top: 0px;
+	text-align: center;
+	left: 30%;
+	
 }
-
+.maschera{
+	width:100%;
+	height:100%;
+}
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
@@ -289,8 +312,9 @@ section.success {
 }
 .footer-img{
 	width: 100px;
-margin-bottom: -25px;
-margin-top: -25px;
+	margin-bottom: -25px;
+	margin-top: -25px;
+	
 }
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -401,8 +425,10 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    
+    padding-top: 20px;
+	background-color: #3E3D40;
+	margin-bottom: -25px;
 }
 
 footer .footer-col {
@@ -511,7 +537,7 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 .about-bullet{
-	
+	list-style-image: url('img/bullet.png');
 	font-size:22px;
 	margin-bottom:-200px;
 }
@@ -521,10 +547,11 @@ footer .footer-below {
 }
 #profil{
 	    display: block;
-        width: 15%;
-    height: auto;
-    border-radius: 50px;
-    float:left;
+		width: 200px;
+		height: 200px;
+		border-radius: 150px;
+		margin-left: 25%;
+		margin-top: -30px;
 }
 	.profi-div{
 	width:100%;
@@ -565,8 +592,9 @@ margin-left: 0%;
 }
 .text-cell{
 	width: 80%;
-margin-left: 20%;
-font-size: 20px;
+	margin-left: 235px;
+	font-size: 20px;
+	margin-top: 0px;
 }
 .post-img{
 	display: block;
@@ -582,11 +610,16 @@ font-size: 20px;
 	margin-bottom:30px;
 }
 .profi-div h2{
-	margin-bottom:20px;
-	width:15%;
-	text-align:center;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
 }
-
+.post-title{
+	text-align:center;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
 
 @media(min-width:767px) {
 	.profi-div{
@@ -595,11 +628,71 @@ font-size: 20px;
 }
 }
 @media(min-width:1170px) {
+.category-description{
+	margin-left: 10%;
+	width: 80%;
+}
+.profil-about{
+	width:100%;
+	margin-top:100px;
+	
+}
+.img-post{
+	width:80%;
+	height:auto;
+}
+.img-post-in{
+	width:80%;
+	height:auto;
+}
 	#img-profile{
 	margin-top:-50px;
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
 }
 .about-bullet{
 	
 	margin-bottom:0px;
+}
+.portfolio-inside{
+	margin-top:-30px;
+}
+.small-bullet{
+	display:block;
+	margin-top: -53px;
+	margin-right: 131px;
+	margin-bottom:0px;
+	margin-left: -104px;
+	
+}
+
+.bullet-div{
+	width:80%;
+	margin-left:5%;
+}
+#profil{
+	    display: block;
+		width: 200px;
+		height: 200px;
+		border-radius: 150px;
+		float: left;
+		margin-left: -18px;
+		margin-top: 22px;
+}
+.big-bullet{
+	float:left;
+	margin-top: -4px;
+	margin-right: 131px;
+	margin-left: 65px;
+	margin-bottom:0px;
+}
+.profi-div h2{
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: left;
 }
 }

@@ -2,12 +2,13 @@
 layout: default
 modal-id: 2
 date: 2015-12-09
-img: web/logo-gems.jpg
+img: web/DEZU.jpg
 alt: image-alt
 title: Andrea Dezulian Gems
 project-date: Mai 2015
 client: Andrea Dezulian Gems
 category: webdesign
-description: Sito internet responsive per compagnia di vendita diamanti. Design flate intuitivo, progettato per una navigazione veloce. Sito internet <a href="http://andreadezulian.com">Andrea Dezulian Gems</a>.
+link: <a href="http://andreadezulian.com">andreadezulian.com</a>
+description: Sito internet responsive per compagnia di vendita diamanti. Design flate intuitivo, progettato per una navigazione veloce. Sito internet <a class="post-a" href="http://andreadezulian.com">Andrea Dezulian Gems</a>.
 
 ---

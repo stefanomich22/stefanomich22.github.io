@@ -1,14 +1,15 @@
 ---
 layout: default
 title: Riccardo Mich
-modal-id: 1
+modal-id: 4
 date: 2015-01-10
-img: web/logo-futura.jpg
+img: web/mich.jpg
 alt: Riccardo Mich
 project-date: December 2013
 client: Riccardo Mich
 category: webdesign
 subtitle: Berghotel
-description: Blog semplice, coinciso, e veloce dedicato all'atleta dela Team Futura Riccardo Mich. Sito internet <a href="http://riccardomich.com">Riccardo Mich</a>.
+link: <a href="http://riccardomich.com">riccardomich.com</a>
+description: Blog semplice, coinciso, e veloce dedicato all'atleta dela Team Futura Riccardo Mich. Sito internet <a class="post-a" href="http://riccardomich.com">Riccardo Mich</a>.
 
 ---

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Alice Russolo
+modal-id: 6
+date: 2015-08-18
+img: graphic/russolo.jpg
+img-in: graphic/impaginazione-russolo.jpg
+alt: Agritur Pianrestel
+project-date: Agosto 2015
+client: Alice Russolo
+category: graphicdesign
+description: Brand identity per Alice Russolo photography.
+
+---

@@ -10,32 +10,19 @@
             </div>
             <div class="row">
             <div class="category-description">
-                Creiamo il Suo sito web – su misura, adattato ai Suoi desideri:<br>
-    <ul>
-    <li>Integriamo testi e immagini</li>
-    <li>Ottimizzazione di ricerca</li>
-    <li>Design professionale del sito</li>
-    <li>Contenuti del sito possono essere modificati autonomamente (CMS)</li>
-    <li>Alta flessibilità – i siti che creiamo sono facilmente estensibili</li>
-    <li>Support diretto da professionisti – niente Callcenter e nessuna coda di attesa</li>
-     </ul>
+                Sviluppiamo qualsiasi genere di software e applicazioni per la vostra azienda o per le vostre idee.
 <br>
             </div><br><br>
-<br><br>            <div class="col-lg-12 text-center">
-                    <h2 class="pad intern">Lavori</h2>
-                    
-                </div>
-                {% for post in site.posts %}
-                {% if post.category == "software" %}
+<br><br>          
                     <div class="portfolio-inside">
+                     <div class="col-sm-4 portfolio-item">
+                    <div class="post-title"> Applicazioni</div>
                         
-                            <div class="profi-div">
-                                   <h3>{{ post.title }}</h3><img src="../img/portfolio/{{ post.img }}" class="post-img" alt="{{ post.alt }}"><div class="text-cell">{{ post.description }}</div>
-                            
-                        
-                    </div>
-                    {% endif %}
-                {% endfor %}
+                            <img src="../img/portfolio/software/software.jpg" class="img-responsive" alt="Applicazioni">
+                        </a>
+                      
+                    </div>  
+                   
             </div>
         </div>
     </section>

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Pianrestel
+modal-id: 3
+date: 2014-07-18
+img: graphic/pianrestel.jpg
+img-in: graphic/impaginazione-pian-restel.jpg
+alt: Agritur Pianrestel
+project-date: Giugno 2015
+client: Agritur Pianrestel
+category: graphicdesign
+description: Brand identity per Agritur Pianrestel di Cavalese(TN).
+
+---

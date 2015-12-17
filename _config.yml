@@ -1,8 +1,8 @@
 # Site settings
-title: Dolomites Labs - Design & Software
+title: Dolomites Labs | Design & Software
 email: dolomiteslabs@gmail.com
 url: http://dolomiteslabs.com
-description: "Il tuo Team per la creazione di siti internet, design di interni, design grafico, sviluppo software e applicazioni, fotografia ritratti, ceremonie e interni."
+description: "Il tuo Team per la creazione di siti internet responsive, design di interni dedicati, design grafico, sviluppo software e applicazioni, fotografia ritratti, ceremonie e interni."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -12,6 +12,7 @@ color:
   primary: 00A096 #80B3FF
   secondary: 3e3d40 #FD6E8A
   secondary-dark: 233140 #A2122F
+  
 
 # Footer settings
 footer:
@@ -19,20 +20,20 @@ footer:
   location: Location
   social: Social
   credits: Contacts
-
+  
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url:
+    url: http://
   - title: instagram
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: http://
   
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Val di Fiemme
   - line: Italy
-
+footerimg: "img/footer-img.png"
 # Credits content
 credits: <a href="mailto:dolomiteslabs@gmail.com">dolomiteslabs@gmail.com</a>
 

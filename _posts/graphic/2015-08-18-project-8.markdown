@@ -1,0 +1,13 @@
+---
+layout: default
+title: Flyer
+date: 2015-09-18
+img: graphic/graphic-flyer.jpg
+img-in: graphic/graphic-flyer.jpg
+alt: Flyer
+project-date: Aprile 2015
+client: Flyer
+category: graphicdesign
+description: Studio, progettazione e creazione di Flyer per ogni tipo di attività.
+
+---

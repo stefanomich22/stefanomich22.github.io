@@ -1,0 +1,14 @@
+---
+layout: default
+title: Carlo Goldoni
+modal-id: 7
+date: 2015-08-18
+img: graphic/carlo-goldoni.jpg
+img-in: graphic/carlo-goldoni.jpg
+alt: Carlo Goldoni
+project-date: Maggio 2015
+client: Carlo Goldoni
+category: graphicdesign
+description: Brand identity per Stuidio Dentistico Carlo Goldoni.
+
+---

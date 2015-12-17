@@ -10,30 +10,20 @@
             </div>
             <div class="row">
             <div class="category-description">
-                Creiamo il Suo sito web – su misura, adattato ai Suoi desideri:<br>
-    <ul>
-    <li>Integriamo testi e immagini</li>
-    <li>Ottimizzazione di ricerca</li>
-    <li>Design professionale del sito</li>
-    <li>Contenuti del sito possono essere modificati autonomamente (CMS)</li>
-    <li>Alta flessibilità – i siti che creiamo sono facilmente estensibili</li>
-    <li>Support diretto da professionisti – niente Callcenter e nessuna coda di attesa</li>
-     </ul>
-
+                Dall'ideal al progetto.<br>
+				Rilievi, studi in pianta e render fotorealistici per seguirvi passo per passo nel vostro progetto.
             </div><br><br>
-<br><br>            <div class="col-lg-12 text-center">
-                    <h2 class="pad intern">Lavori</h2>
-                    
-                </div>
-                {% for post in site.posts %}
+            {% for post in site.posts %}
                 {% if post.category == "interiordesign" %}
-                    <div class="portfolio-inside">
-                        
-                            <div class="profi-div">
-                                   <h3>{{ post.title }}</h3><img src="../img/portfolio/{{ post.img }}" class="post-img" alt="{{ post.alt }}"><div class="text-cell">{{ post.description }}</div>
-                            
-                        
-                    </div>
+<br><br>            <div class="portfolio-inside">
+                     <div class="col-sm-4 portfolio-item">
+                    <div class="post-title"> {{ post.title }}</div>
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="../img/gigi2.png" class="caption">
+                            <img src="../img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                      
+                    </div>  
                     {% endif %}
                 {% endfor %}
             </div>

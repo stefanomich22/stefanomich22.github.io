@@ -15,26 +15,31 @@
     <li>Integriamo testi e immagini</li>
     <li>Ottimizzazione di ricerca</li>
     <li>Design professionale del sito</li>
-    <li>Contenuti del sito possono essere modificati autonomamente (CMS)</li>
     <li>Alta flessibilità – i siti che creiamo sono facilmente estensibili</li>
-    <li>Support diretto da professionisti – niente Callcenter e nessuna coda di attesa</li>
+    <li>Pagina di attività su Google che permette di essere trovati e contattati subito. In più da la possibilità di ricevere feedback e dare visibilità al marchio</li>
+    <li>Supporto diretto da professionisti – niente Callcenter e nessuna coda di attesa</li>
+    <li>Link nascosto con possibilità di testare il sito durante lo sviluppo
      </ul>
-Assimiliamo il design già esistente e lo ottimizziamo o creiamo un design nuovo. Il Suo messaggio verrà comunicato in modo efficiente. Sito facile da gestire e tuttavia con design piacevole.<br>
-Risultato: Il Suo marchio si profila nella giungla dei siti web portando vantaggi. Sia localmente che in ambito internazionale.<br>
+Assimiliamo il design già esistente e lo ottimizziamo o creiamo un design nuovo. Il Suo messaggio verrà comunicato in modo efficiente. Sito facile da navigare e tuttavia con design piacevole.<br>
+Risultato: Il Suo marchio si profilerà nel mondo del web,dando più visibilità alla sua compagnia e con vantaggi notevoli.<br>
             </div><br><br>
-<br><br>            <div class="col-lg-12 text-center">
-                    <h2 class="pad intern">Lavori</h2>
-                    
-                </div>
+<br><br>            
                 {% for post in site.posts %}
                 {% if post.category == "webdesign" %}
                     <div class="portfolio-inside">
-                        
-                            <div class="profi-div">
+                     <div class="col-sm-4 portfolio-item">
+                    <div class="post-title"> {{ post.title }}</div>
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="../img/gigi2.png" class="caption">
+                            <img src="../img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                      <div class="post-title"> {{ post.link }}</div>
+                    </div>   
+                       <!--     <div class="profi-div">
                                    <h3>{{ post.title }}</h3><img src="../img/portfolio/{{ post.img }}" class="post-img" alt="{{ post.alt }}"><div class="text-cell">{{ post.description }}</div>
                             
                         
-                    </div>
+                    </div>-->
                     {% endif %}
                 {% endfor %}
             </div>

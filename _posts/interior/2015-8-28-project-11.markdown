@@ -1,0 +1,14 @@
+---
+layout: default
+title: Privato Gaia
+date: 2015-11-18
+modal-id: 11
+img: interior/casa-gaia.jpg
+img-in: 
+alt: Privato Gaia
+project-date: Ottobre 2015
+client: Privato Gaia
+category: interiordesign
+description: Studio e Progettazione del soggiorno di casa.
+
+---
