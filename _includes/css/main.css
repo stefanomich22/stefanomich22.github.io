@@ -332,7 +332,7 @@ section.success {
 }
 .contact-h2{
 	margin-bottom: 45px;
-margin-top: -55px;
+margin-top: 0px;
 }
 .footer-above a{
 	color:#fff;
@@ -546,12 +546,14 @@ footer .footer-below {
 	margin-top:50px;
 }
 #profil{
-	    display: block;
-		width: 200px;
-		height: 200px;
-		border-radius: 150px;
-		margin-left: 25%;
-		margin-top: -30px;
+	display: block;
+width: 200px;
+height: 200px;
+border-radius: 150px;
+margin-left: auto;
+margin-top: -15px;
+margin-bottom:15px;
+margin-right: auto;
 }
 	.profi-div{
 	width:100%;
@@ -591,8 +593,8 @@ margin-left: 0%;
 	padding-bottom:20px;
 }
 .text-cell{
-	width: 80%;
-	margin-left: 235px;
+	width: 100%;
+	margin-left: 0px;
 	font-size: 20px;
 	margin-top: 0px;
 }
@@ -613,6 +615,7 @@ margin-left: 0%;
 	margin-bottom: 20px;
 	width: 100%;
 	text-align: center;
+	margin-left:-40px;
 }
 .post-title{
 	text-align:center;
@@ -663,10 +666,7 @@ margin-left: 0%;
 }
 .small-bullet{
 	display:block;
-	margin-top: -53px;
-	margin-right: 131px;
-	margin-bottom:0px;
-	margin-left: -104px;
+	margin-left: 78px;
 	
 }
 
@@ -694,5 +694,12 @@ margin-left: 0%;
 	margin-bottom: 20px;
 	width: 100%;
 	text-align: left;
+}
+.text-cell{
+	margin-top: 12px;
+	margin-left: 235px;
+}
+.profi-div h2{
+	margin-left:0px;
 }
 }
