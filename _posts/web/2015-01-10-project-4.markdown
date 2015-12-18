@@ -4,6 +4,7 @@ title: Riccardo Mich
 modal-id: 4
 date: 2015-01-10
 img: web/mich.jpg
+img-in: web/mich.jpg
 alt: Riccardo Mich
 project-date: December 2013
 client: Riccardo Mich

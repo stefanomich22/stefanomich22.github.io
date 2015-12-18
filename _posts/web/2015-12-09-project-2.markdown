@@ -3,7 +3,8 @@ layout: default
 modal-id: 2
 date: 2015-12-09
 img: web/DEZU.jpg
-alt: image-alt
+img-in: web/DEZU.jpg
+alt: Andrea Dezulian Gems
 title: Andrea Dezulian Gems
 project-date: Mai 2015
 client: Andrea Dezulian Gems

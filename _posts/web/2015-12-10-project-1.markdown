@@ -4,6 +4,7 @@ title: Berghotel Miramonti
 modal-id: 1
 date: 2014-12-10
 img: web/berghotel.jpg
+img-in: web/berghotel.jpg
 alt: Berghotel Miramonti
 project-date: Giugno 2015
 client: Berghotel Miramonti

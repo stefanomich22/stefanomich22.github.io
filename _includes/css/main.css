@@ -631,6 +631,9 @@ margin-left: 0%;
 }
 }
 @media(min-width:1170px) {
+.logo-header{
+	margin-top:-60px;
+}
 .category-description{
 	margin-left: 10%;
 	width: 80%;
