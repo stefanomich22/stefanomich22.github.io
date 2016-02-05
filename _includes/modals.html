@@ -10,7 +10,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="post-in">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <div class="separator"></div>
@@ -28,6 +28,23 @@
                                 </li>
                                 
                             </ul>
+                            <br><br><br>
+                             {% if post.double== "si" %}
+                            <img src="../img/portfolio/{{ post.img-in2 }}" class="img-responsive img-centered img-post-in" alt="{{ post.alt }}">
+                            <p>{{ post.description2 }}</p>
+                            
+                            <ul class="list-inline item-details">
+                                <li>Cliente:
+                                    <strong>{{ post.client2 }}
+                                    </strong>
+                                </li>
+                                <li>Data:
+                                    <strong>{{ post.project-date }}
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

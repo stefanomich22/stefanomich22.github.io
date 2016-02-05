@@ -3,11 +3,15 @@ layout: default
 title: Flyer
 date: 2015-09-18
 img: graphic/graphic-flyer.jpg
-img-in: graphic/graphic-flyer.jpg
+img-in: graphic/vuerich.jpg
+double: si
+img-in2: graphic/cemin.jpg
 alt: Flyer
 project-date: Aprile 2015
-client: Flyer
+client: Vuerich Service
+client2: Cemin Sport
 category: graphicdesign
-description: Studio, progettazione e creazione di Flyer per ogni tipo di attività.
+description: Studio grafico e fotografie per Vuerich Service, Predazzo.
+description2: Studio grafico pubblicitario per Cemin Sport, Predazzo.
 
 ---

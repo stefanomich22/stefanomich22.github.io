@@ -9,6 +9,6 @@ alt: Carlo Goldoni
 project-date: Maggio 2015
 client: Carlo Goldoni
 category: graphicdesign
-description: Brand identity per Stuidio Dentistico Carlo Goldoni.
+description: Brand identity per Studio Dentistico Carlo Goldoni.
 
 ---

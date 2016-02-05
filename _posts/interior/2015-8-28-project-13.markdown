@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Abitazioni private Predazzo
+title: Abitazione privata Predazzo
 date: 2015-11-18
-modal-id: 11
-img: interior/soluzione per abitazioni private_predazzo.jpg
-img-in: interior/IMPAGINAZIONE-BRIGADOI-PREDAZZO.jpg
+modal-id: 13
+img: interior/casa privata _via di poz_predazzo 1.jpg
+img-in: interior/ABITAZIONE-PRIVATA-PRED.jpg
 alt: Privato
 project-date: Ottobre 2015
 client: Privato

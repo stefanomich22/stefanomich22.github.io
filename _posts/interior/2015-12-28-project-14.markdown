@@ -1,0 +1,14 @@
+---
+layout: default
+title: Spa Hotel Sporting - Livigno
+date: 2015-11-18
+modal-id: 14
+img: interior/SPA_hotel sporting_livigno.jpg
+img-in: interior/IMPAGINAZIONE-HOTEL-SPORTING-LIVIGNO.jpg
+alt: Privato
+project-date: Agosto 2015
+client: Sanae
+category: interiordesign
+description: Render fotorealistici.
+
+---

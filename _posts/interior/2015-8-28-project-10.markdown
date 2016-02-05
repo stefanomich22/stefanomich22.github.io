@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Cares
+title: Centro Estetito Cares Trento
 date: 2015-09-18
 modal-id: 10
-img: interior/cares.jpg
+img: interior/centro estetico_cares_trento.jpg
 img-in: interior/impaginazione-cares.jpg
 alt: Cares
 project-date: Settembre 2015
 client: Centro Estetico Cares
 category: interiordesign
-description: Studio e Progettazione del nuovo Centro Estetico Cares di Trento.
+description: Studio e Progettazione di un nuovo Centro Estetico a Cares - Trento.
 
 ---
