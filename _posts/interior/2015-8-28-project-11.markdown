@@ -9,6 +9,6 @@ alt: Privato
 project-date: Ottobre 2015
 client: Privato
 category: interiordesign
-description: Studio e progettazione degli spazi d'interni. <br>Disegni 2D, Render.
+description: Studio e progettazione degli spazi interni. <br>Disegni 2D, Render.
 
 ---

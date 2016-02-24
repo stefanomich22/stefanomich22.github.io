@@ -9,6 +9,6 @@ alt: Abitazione privata
 project-date: Settembre 2015
 client: Università
 category: interiordesign
-description: Studio e design d'interni ispirati al film "L'ultimo imperatore".<br> <img class="img-post" src="../img/portfolio/interior/IMPAGINAZIONE-ULTIMO-IMPERATORE.jpg"/>
+description: Studio e design d'interni ispirati al film "L'ultimo imperatore".
 
 ---
