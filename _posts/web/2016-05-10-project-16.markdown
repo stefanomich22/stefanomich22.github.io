@@ -1,0 +1,16 @@
+---
+layout: default
+title: Hotel La Sorgente
+modal-id: 1
+date: 2014-12-10
+img: web/sorgente.png
+img-in: web/sorgente.png
+alt: Hotel La Sorgente
+project-date: Maggio 2016
+client: Hotel La Sorgente
+category: webdesign
+link: <a href="http://hotellasorgente.info">hotellasorgente.info</a>
+subtitle: La Sorgente
+description: Sito internet con design semplice e responsive, creato per hotel di nuova apertura a Tesero(TN). Pensato per essere intuitivo e facile da capire da parte dell'utente. Sito internet <a class="post-a" href="http://hotellasorgente.info"> Hotel La Sorgente</a>.
+
+---

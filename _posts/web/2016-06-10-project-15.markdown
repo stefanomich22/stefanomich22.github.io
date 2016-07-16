@@ -1,0 +1,16 @@
+---
+layout: default
+title: Hotel Genzianella
+modal-id: 1
+date: 2014-12-10
+img: web/genzianella.png
+img-in: web/genzianella.png
+alt: Hotel Genzianella
+project-date: Giugno 2016
+client: Hotel Genzianella
+category: webdesign
+link: <a href="http://genzianellahotel.com">genzianellahotel.com</a>
+subtitle: Genzianella
+description: Sito internet con design responsive e creativo. Pensato per essere intuitivo e facile da capire da parte dell'utente. Sito internet <a class="post-a" href="http://genzianellahotel.com"> Hotel Genzianella</a>.
+
+---
